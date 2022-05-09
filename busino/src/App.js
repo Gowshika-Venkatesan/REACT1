@@ -8,10 +8,12 @@ import { SliderData } from './components/pages/Slider';
 import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import Service from "./components/pages/Service";
+import { FooterContainer } from './container/Footer'
 
 
 function App() {
   return (
+      <>
        <BrowserRouter>
            <Navbar />
            <Home />
@@ -21,7 +23,9 @@ function App() {
 
            <ImageSlider slides={SliderData} />;
        </BrowserRouter>
-  );
+          <FooterContainer />
+       </>
+          );
 }
 
 export default App;
