@@ -40,8 +40,9 @@ function Navbar(props) {
                         Contact
                     </Link>
                 </li>
-                    <Button />
+
             </ul>
+            <Button />
 
         </nav>
         </>
