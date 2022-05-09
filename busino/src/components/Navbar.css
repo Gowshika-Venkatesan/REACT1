@@ -1,4 +1,5 @@
 .navbar {
+    top:0;
     position: sticky;
     background: white;
     height: 80px;
@@ -66,14 +67,14 @@
 
 @media screen and (max-width: 960px) {
     .NavbarItems {
-        position: relative;
+        position: fixed;
     }
 
     .nav-menu {
         display: flex;
         flex-direction: column;
         width: 40%;
-        height: 60vh;
+        height: 48vh;
         position: absolute;
         top: 80px;
         left: -100%;
@@ -82,7 +83,7 @@
     }
 
     .nav-menu.active {
-        background: brown;
+        background: blanchedalmond;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -97,6 +98,7 @@
     }
 
     .nav-links:hover {
+        background:sandybrown;
         color: white;
         border-radius: 0;
     }
