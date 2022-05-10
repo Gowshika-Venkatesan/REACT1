@@ -27,7 +27,6 @@ export function FooterContainer() {
             console.log(values);
         };
         return (
-
             <Footer>
                 <Footer.Wrapper>
                     <Footer.Row>
@@ -99,6 +98,7 @@ export function FooterContainer() {
                     </Footer.Row>
                 </Footer.Wrapper>
             </Footer>
+
         );
     }
 

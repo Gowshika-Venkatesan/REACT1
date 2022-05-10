@@ -1,0 +1,21 @@
+.copy{
+    background: white;
+    margin: 60px 0px 0px 500px;
+    font-size: 15px;
+    font-family: 'Roboto Flex', sans-serif;
+    word-spacing: 2px;
+
+}
+.copy>i{
+    padding-left: 0px;
+    color: #ce5252;
+}
+.bold1{
+    color: #2d2a2a;
+}
+@media only screen and (max-width: 1000px) {
+    .copy {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

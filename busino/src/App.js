@@ -6,7 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import Service from "./components/pages/Service";
-import { FooterContainer } from './container/Footer'
+import { FooterContainer } from './container/Footer';
+import Copy from './components/footer/Copy'
 
 
 
@@ -23,6 +24,7 @@ function App() {
            {/*<ImageSlider slides={SliderData} />;*/}
        </BrowserRouter>
           <FooterContainer />
+          <Copy/>
 
        </>
           );

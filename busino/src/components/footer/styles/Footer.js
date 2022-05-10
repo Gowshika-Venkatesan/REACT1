@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-padding: 80px 60px;
-  background:   #Ddf2f5;
-  @media (max-width: 1000px) {
-    padding: 70px 30px;
+  padding: 80px 60px;
+  background: #eaf5f8;
+  height: 520px;
+  @media only screen and (max-width: 1000px) {
+    padding: 10px 10px;
+    display: flex;
+    height: 1000px;
   }
-  
+
 `
 export const Wrapper = styled.div`
 display: flex;
