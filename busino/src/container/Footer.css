@@ -1,56 +1,65 @@
-.content1{
-    padding-top: 50px;
-    color: #000000;
-    font-family: 'Roboto Flex', sans-serif;
-    font-size: 18px;
-    word-spacing: 3px;
-}
-.log{
-    margin: 0;
-    margin-left: 10px;
-    flex-grow: 400;
-}
-.log1{
-    margin-top: 40px;
-    letter-spacing: 1px;
-    margin-left: 5px;
-    color: #1c82c2;
-    font-size: 20px;
-}
-.log2{
-    position: relative;
-    bottom: 350px;
-    left: 500px;
-}
-.img{
-    height: 35px;
-    width: 200px;
-}
+    a {
+        text-decoration: none;
+    }
 
-.form1{
-    padding: 10px;
-    border: none;
-    margin-left: 30px;
-}
-.form{
-    margin-top: 50px;
-}
-.button{
-    background: #1c82c2;
-    position: relative;
-    bottom: 36px;
-    left: 230px;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-}
-.button:hover{
-    background: #d03434;
+    .content {
+        position: absolute;
+        left: 50px;
+    }
 
-}
-.icon{
-    margin-left: 20px;
-    display: flex;
-    column-gap: 30px;
-}
+    .content1 {
+        margin-top: 30px;
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: 17px;
+    }
+
+    .log1 {
+        margin-top: 30px;
+        word-spacing: 1px;
+        margin-left: 5px;
+        color: #3173b7;
+        font-size: 20px;
+    }
+    .form1{
+        padding: 10px;
+        margin-top: 30px;
+        border: none;
+        border-radius: 7px;
+        font-size: 18px;
+        color: #7a7474;
+        outline: none;
+    }
+
+    .button{
+        position: absolute;
+        padding: 12px 20px;
+        border-radius: 5px;
+        border: none;
+        background: #3970a8;
+        color: white;
+        font-size: 15px;
+        left: 220px;
+        top: 217px;
+    }
+    .button:hover{
+        background: #cc4848;
+    }
+    .icon{
+        margin-top: 45px;
+
+    }
+    i{
+        padding-left: 25px;
+        font-size: 20px;
+        color: #5b87b4;
+    }
+    i:hover{
+        color: #cc4848;
+    }
+    @media only screen and (max-width: 1000px) {
+        .content{
+            position: absolute;
+            left: 0px;
+        }
+
+    }

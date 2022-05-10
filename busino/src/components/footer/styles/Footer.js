@@ -1,31 +1,32 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding-top: 80px;
-  background: #e7f4f6;
-  height: 550px;
-
+padding: 80px 60px;
+  background:   #Ddf2f5;
+  @media (max-width: 1000px) {
+    padding: 70px 30px;
+  }
+  
 `
 export const Wrapper = styled.div`
-  display: flex;
+display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 800px;
-  margin-left: 50px;
-  margin-top: 40px;
-  
+  max-width: 1000px;
+  margin: 0 auto;
 `
 
 export const Column = styled.div` 
-    display: grid;
-    text-align: left;
-    margin-left: 0px;
+    display: flex;
+   flex-direction: column;
+   text-align: left;
+   margin-left: 60px;
 `
 
 export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(230px ,1fr));
-  grid-gap: 30px;
+  grid-gap: 20px;
   
   @media(max-width: 1000px){
     grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
@@ -33,13 +34,14 @@ export const Row = styled.div`
 `
 
 export const Link = styled.div`
-  color: #000000;
+  color: #818585;
   margin-bottom: 20px;
   font-size: 18px;
+  font-weight: lighter;
   font-family: 'Roboto Flex', sans-serif;
   text-decoration: none;
-  
-  &:hover{
+
+  &:hover {
     color: red;
     transition: 200ms ease-in;
   }

@@ -30,17 +30,17 @@ export function FooterContainer() {
 
             <Footer>
                 <Footer.Wrapper>
-                    <div className="log">
-                        <img className="img" src="./logo.png" alt="logo"/>
-                        <div className="content1">Best is the most porro quisqudolor em are quis <br/> quam est, qui
+                    <Footer.Row>
+                       <div className="content">
+                           <img className="img" src="./logo.png" alt="logo"/>
+                          <div className="content1">Best is the most porro quisqudolor em are<br/> quis quam est, qui
                             doquia dolor sit amcons
-                        </div>
-                        <div className="log1">
-                            Subscribe our newsletter and get latest <br/>update about our offers, promotions
-                        </div>
-                    </div>
-                    <div className="form">
-                        <Form {...layout} name="nest-messages" onFinish={onFinish}
+                          </div><div className="log1">
+                            Subscribe our newsletter and get latest<br/> update about our offers, promotions
+                          </div>
+
+                        <div >
+                          <Form {...layout} name="nest-messages" onFinish={onFinish}
                               validateMessages={validateMessages}>
                             <Form.Item
                                 name={['email']}
@@ -55,10 +55,9 @@ export function FooterContainer() {
                                     placeholder="Enter your Email"/>
                             </Form.Item>
                             <Form.Item wrapperCol={{...layout.wrapperCol, offset: 8}}>
-                                <Button className="button" type="primary" htmlType="submit">
+                                <Button className="button" type="primary" href='/' htmlType="submit">
                                     Subscribe
                                 </Button>
-
                             </Form.Item>
                         </Form>
                     </div>
@@ -67,12 +66,13 @@ export function FooterContainer() {
                         <a href='/' ><i className="fa-brands fa-twitter"></i></a>
                         <a href='/' ><i className="fa-brands fa-instagram"></i></a>
                         <a href='/' > <i className="fa-brands fa-google-plus-g"></i></a>
-                    </div>
-                    <div className="log2">
-                        <Footer.Row>
-                            <Footer.Column>
+                      </div>
+                       </div>
+                        <Footer.Column>
+                        </Footer.Column>
+                        <Footer.Column>
                                 <Footer.Title>Service</Footer.Title>
-                                <Footer.Link href="#">Market Research</Footer.Link>
+                            <a href="#"><Footer.Link href="#">Market Research</Footer.Link></a>
                                 <Footer.Link href="#">SEO Optimization</Footer.Link>
                                 <Footer.Link href="#">Amazing Strategy</Footer.Link>
                                 <Footer.Link href="#">Financial Planning</Footer.Link>
@@ -96,10 +96,8 @@ export function FooterContainer() {
                                 <Footer.Link href="#">www.example.com</Footer.Link>
                                 <Footer.Link href="#">info@example.com</Footer.Link>
                             </Footer.Column>
-                        </Footer.Row>
-                    </div>
+                    </Footer.Row>
                 </Footer.Wrapper>
-
             </Footer>
         );
     }
