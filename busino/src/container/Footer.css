@@ -3,25 +3,34 @@
     color: #000000;
     font-family: 'Roboto Flex', sans-serif;
     font-size: 18px;
+    word-spacing: 3px;
 }
 .log{
     margin: 0;
+    margin-left: 10px;
     flex-grow: 400;
 }
 .log1{
-    margin-top: 50px;
+    margin-top: 40px;
+    letter-spacing: 1px;
     margin-left: 5px;
     color: #1c82c2;
     font-size: 20px;
 }
 .log2{
     position: relative;
-    bottom: 180px;
+    bottom: 350px;
     left: 450px;
 }
+.img{
+    height: 35px;
+    width: 200px;
+}
+
 .form1{
     padding: 10px;
     border: none;
+    margin-left: 30px;
 }
 .form{
     margin-top: 50px;
@@ -30,13 +39,18 @@
     background: #1c82c2;
     position: relative;
     bottom: 36px;
-    left: 200px;
+    left: 230px;
     color: white;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
 }
 .button:hover{
     background: #d03434;
 
+}
+.icon{
+    margin-left: 20px;
+    display: flex;
+    column-gap: 30px;
 }

@@ -18,11 +18,9 @@ export function FooterContainer() {
         required: '${label} is required!',
         types: {
             email: '${label} is not a valid email!',
-            number: '${label} is not a valid number!',
+
         },
-        number: {
-            range: '${label} must be between ${min} and ${max}',
-        },
+
     };
     /* eslint-enable no-template-curly-in-string */
         const onFinish = (values) => {
@@ -33,8 +31,8 @@ export function FooterContainer() {
             <Footer>
                 <Footer.Wrapper>
                     <div className="log">
-                        <img src="./logo.png" alt="logo"/>
-                        <div className="content1">Best is the most porro quisqudolor em are <br/> quis quam est, qui
+                        <img className="img" src="./logo.png" alt="logo"/>
+                        <div className="content1">Best is the most porro quisqudolor em are quis <br/> quam est, qui
                             doquia dolor sit amcons
                         </div>
                         <div className="log1">
@@ -63,6 +61,12 @@ export function FooterContainer() {
 
                             </Form.Item>
                         </Form>
+                    </div>
+                    <div className="icon">
+                        <a href='/' > <i  className="fa-brands fa-facebook-f"></i></a>
+                        <a href='/' ><i className="fa-brands fa-twitter"></i></a>
+                        <a href='/' ><i className="fa-brands fa-instagram"></i></a>
+                        <a href='/' > <i className="fa-brands fa-google-plus-g"></i></a>
                     </div>
                     <div className="log2">
                         <Footer.Row>

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   padding-top: 80px;
   background: #e7f4f6;
+  height: 550px;
 
 `
 export const Wrapper = styled.div`
@@ -11,22 +12,20 @@ export const Wrapper = styled.div`
   justify-content: center;
   max-width: 800px;
   margin-left: 50px;
+  margin-top: 40px;
   
 `
 
 export const Column = styled.div` 
     display: grid;
-  text-align: left;
-  margin-left: 0px;
- 
+    text-align: left;
+    margin-left: 0px;
 `
 
 export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(230px ,1fr));
   grid-gap: 30px;
-  
- 
   
   @media(max-width: 1000px){
     grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
