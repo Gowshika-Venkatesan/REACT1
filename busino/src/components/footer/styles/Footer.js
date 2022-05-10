@@ -1,23 +1,24 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-padding: 80px 60px;
+  padding-top: 80px;
   background:   #Ddf2f5;
 
 `
 export const Wrapper = styled.div`
-display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 1300px;
+  margin-left: 50px;
+  
 `
 
 export const Column = styled.div` 
     display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 0px;
 `
 
 export const Row = styled.div`

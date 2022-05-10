@@ -21,7 +21,7 @@ function App() {
            <About/>
            <Service/>
 
-           <ImageSlider slides={SliderData} />;
+           {/*<ImageSlider slides={SliderData} />;*/}
        </BrowserRouter>
           <FooterContainer />
        </>

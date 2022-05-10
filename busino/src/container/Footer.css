@@ -1,0 +1,13 @@
+.content1{
+    padding-top: 50px;
+    font-family: "Agency FB";
+    font-size: 20px;
+}
+.log{
+  margin: 0;
+    flex-grow: 400;
+}
+.log1{
+    color: #81a6bd;
+    font-size: 20px;
+}

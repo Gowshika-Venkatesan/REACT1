@@ -1,12 +1,24 @@
 import React from 'react';
 import Footer from '../components/footer/FooterIndex'
+import './Footer.css'
 
 export function FooterContainer() {
     return(
         <Footer>
             <Footer.Wrapper>
                 <Footer.Row>
-                <Footer.Column>
+                    <div className="log">
+                        <img src="./logo.png" alt="logo"/>
+                        <div className="content1">Best is the most porro quisqudolor em are quis quam est, qui doquia dolor sit amcons</div>
+                        <div className="log1">
+                            Subscribe our newsletter and get latest update about our offers, promotions
+                        </div>
+                    </div>
+
+                    <Footer.Column>
+
+                    </Footer.Column>
+                    <Footer.Column>
                     <Footer.Title>Service</Footer.Title>
                     <Footer.Link href="#">Market Research</Footer.Link>
                     <Footer.Link href="#">SEO Optimization</Footer.Link>
@@ -26,7 +38,7 @@ export function FooterContainer() {
                 </Footer.Column>
                 <Footer.Column>
                     <Footer.Title>Service</Footer.Title>
-                    <Footer.Link > 256 Central Park,East Town Soth valley, New York</Footer.Link>
+                    <Footer.Link > 256 Central Park,East Town Soth valley, New York</Footer.Link >
                     <Footer.Link href="#">+12345 687 856</Footer.Link>
                     <Footer.Link href="#">+98745 612 324</Footer.Link>
                     <Footer.Link href="#">www.example.com</Footer.Link>
