@@ -11,6 +11,7 @@ import Service from "./components/pages/Service";
 import { FooterContainer } from './container/Footer'
 
 
+
 function App() {
   return (
       <>
@@ -24,6 +25,7 @@ function App() {
            {/*<ImageSlider slides={SliderData} />;*/}
        </BrowserRouter>
           <FooterContainer />
+
        </>
           );
 }

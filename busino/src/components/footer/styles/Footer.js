@@ -2,29 +2,31 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding-top: 80px;
-  background:   #Ddf2f5;
+  background: #e7f4f6;
 
 `
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1300px;
+  max-width: 800px;
   margin-left: 50px;
   
 `
 
 export const Column = styled.div` 
-    display: flex;
-  flex-direction: column;
+    display: grid;
   text-align: left;
   margin-left: 0px;
+ 
 `
 
 export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(230px ,1fr));
-  grid-gap: 20px;
+  grid-gap: 30px;
+  
+ 
   
   @media(max-width: 1000px){
     grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
@@ -32,11 +34,10 @@ export const Row = styled.div`
 `
 
 export const Link = styled.div`
-  color: #C3c7c7;
+  color: #000000;
   margin-bottom: 20px;
-  font-size: 25px;
-  font-weight: lighter;
-  font-family: "Agency FB";
+  font-size: 18px;
+  font-family: 'Roboto Flex', sans-serif;
   text-decoration: none;
   
   &:hover{

@@ -1,13 +1,42 @@
 .content1{
     padding-top: 50px;
-    font-family: "Agency FB";
-    font-size: 20px;
+    color: #000000;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 18px;
 }
 .log{
-  margin: 0;
+    margin: 0;
     flex-grow: 400;
 }
 .log1{
-    color: #81a6bd;
+    margin-top: 50px;
+    margin-left: 5px;
+    color: #1c82c2;
     font-size: 20px;
+}
+.log2{
+    position: relative;
+    bottom: 180px;
+    left: 450px;
+}
+.form1{
+    padding: 10px;
+    border: none;
+}
+.form{
+    margin-top: 50px;
+}
+.button{
+    background: #1c82c2;
+    position: relative;
+    bottom: 36px;
+    left: 200px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.button:hover{
+    background: #d03434;
+
 }

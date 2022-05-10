@@ -14,7 +14,7 @@ function Navbar(props) {
         <nav className="navbar">
             <Link to='/'
                   className='navbar-logo'>
-                <img src="./logo.png" alt="logo"/>
+                {/*<img src="./logo.png" alt="logo"/>*/}
             </Link>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars' } />
