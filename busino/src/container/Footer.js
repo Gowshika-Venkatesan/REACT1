@@ -90,7 +90,7 @@ export function FooterContainer() {
                             </Footer.Column>
                             <Footer.Column>
                                 <Footer.Title>Service</Footer.Title>
-                                <Footer.Link> 256 Central Park,East Town Soth valley, New York</Footer.Link>
+                                <Footer.Link> 256 Central Park,East Town South valley, New York</Footer.Link>
                                 <Footer.Link href="#">+12345 687 856</Footer.Link>
                                 <Footer.Link href="#">+98745 612 324</Footer.Link>
                                 <Footer.Link href="#">www.example.com</Footer.Link>
