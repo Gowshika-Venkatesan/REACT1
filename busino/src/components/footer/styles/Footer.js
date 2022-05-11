@@ -16,7 +16,9 @@ display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 1000px;
-  margin: 0 auto;
+  //margin: 0 auto;
+  margin-left: 300px;
+  
 `
 
 export const Column = styled.div` 
@@ -29,10 +31,12 @@ export const Column = styled.div`
 export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(220px ,1fr));
-  grid-gap: 20px;
+  grid-gap: 35px;
+  grid-template-columns: 2fr 3fr 3fr 4fr;
   
   @media(max-width: 1000px){
-    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+    margin-left: 10px;
   }
 `
 
