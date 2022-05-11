@@ -36,12 +36,12 @@ export const Row = styled.div`
   
   @media(max-width: 1000px){
     grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
-    margin-left: 10px;
+    margin-left: 100px;
   }
 `
 
 export const Link = styled.div`
-  color: #818585;
+  color: #070909;
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: lighter;
@@ -55,7 +55,8 @@ export const Link = styled.div`
 `
 
 export const Title = styled.div` 
-    font-size: 24px;
+    font-size: 26px;
+  letter-spacing: 1px;
     color: #22395b;
    margin-bottom: 40px;
   font-weight: bold;

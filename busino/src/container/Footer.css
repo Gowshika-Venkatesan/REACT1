@@ -24,6 +24,7 @@
     }
     .form1{
         padding: 10px;
+        padding-right: 45px;
         margin-top: 30px;
         border: none;
         border-radius: 7px;
@@ -34,14 +35,14 @@
 
     .button{
         position: absolute;
-        padding: 12px 20px;
+        padding: 13px 25px;
         border-radius: 5px;
         border: none;
         background: #3970a8;
         color: white;
-        font-size: 15px;
-        left: 220px;
-        top: 217px;
+        font-size: 18px;
+        left: 270px;
+        top: 219px;
     }
     .button:hover{
         background: #cc4848;
