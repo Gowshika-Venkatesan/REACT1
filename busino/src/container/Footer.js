@@ -32,7 +32,7 @@ export function FooterContainer() {
                     <Footer.Row>
                        <div className="content">
                            <img className="img" src="./logo.png" alt="logo"/>
-                          <div className="content1">Best is the most porro quisqudolor em are<br/> quis quam est, qui
+                          <div className="content1">Best is the most porro quisqudolor em are quis<br/> quam est, qui
                             doquia dolor sit amcons
                           </div><div className="log1">
                             Subscribe our newsletter and get latest<br/> update about our offers, promotions

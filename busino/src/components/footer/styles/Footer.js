@@ -32,7 +32,7 @@ export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(220px ,1fr));
   grid-gap: 35px;
-  grid-template-columns: 2fr 3fr 3fr 4fr;
+  grid-template-columns: 1fr 3fr 3fr 4fr;
   
   @media(max-width: 1000px){
     grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
